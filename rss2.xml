@@ -9,8 +9,29 @@
     <atom:link href="https://www.fuyushenchu.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 11 Apr 2021 14:23:36 GMT</pubDate>
+    <pubDate>Mon, 19 Apr 2021 08:23:16 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>嗨，我换了个新的网站</title>
+      <link>https://www.fuyushenchu.com/2021/04/19/the-new-website/</link>
+      <guid>https://www.fuyushenchu.com/2021/04/19/the-new-website/</guid>
+      <pubDate>Mon, 19 Apr 2021 08:02:39 GMT</pubDate>
+      
+      <description>欢迎来到新网站。</description>
+      
+      
+      
+      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><a class="tag is-dark is-medium" href="https://unsplash.com/photos/mG28olYFgHI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank"><span class="icon"><i class="fas fa-camera"></i></span>&nbsp;&nbsp;Photo by Ross Findon on Unsplash</a><br /> <p>不知不觉，做一个网站作为自我装置已经快两年了。说实话，刚开始决定做这个网站的时候，我是感觉这个网站我坚持不了一年的，所以弄了个非常草率的域名，网站很多东西也没有规范下来（例如图片存储位置）。但断断续续地写，居然已经过了快两年了，我从一个理想主义者变成了一个现实主义者现在又变回了理想主义者，回看过去写的一些文章，这个网站承载了我这两年来巨大的变化。</p><p>互联网发展到现在，已经很少有人会专门去某个网站看别人写的文章了，人们创作的内容大多都放在中心化的平台里，做一个单独的网页未免显得十分怪异，但这却正是「自我装置」这个概念的有趣之处：一个承载「自我」的东西。我不喜欢使用中心化的平台，在这些平台下，很多成员都是无自我的，如果需要获得关注，必须要交出一部分自我，去迎合这个平台的「气质」，渐渐地，我们似乎失去了一套属于自己的表达系统，被另一个表达系统所困。而一个属于自己的表达空间，能逐渐构筑一套属于自己的语言和表达，尽管有些文字可能过于生涩，但是我明白这是出自我自己的东西。</p><p>所以这次换新网站，更多的还是实现我个人对于「自我装置」的一个期望。第一次建立网站时我有过很多期望，但是随着时间的推移和我对自己的认知，我并不能完全实现那些想法，不过同样的，我也找到了很多新的可能性，就体现在这个新的网站上了。</p><p>新的网站主要有这些改进：</p><ol><li>换了个新域名。后知后觉的我终于买了 .com 的域名，之前的域名太过草率，在国内买新域名还得重新走备案流程（此处拉踩阿里云的域名服务），所以这个域名是在国外购买的，域名解析也理所当然地用了 Cloudflare DNS。</li><li>不再依赖特定服务器。今年三月份，Cloudflare 发布了 <a href="pages.cloudflare.com">Cloudflare Pages</a>，每个人都能简单地把自己的网站部署到 Cloudflare 全球数百个数据中心，访问速度也相当快，还不用关注 SSL 证书这种麻烦的东西（再次拉踩阿里云）。</li><li>使用新的博客框架 <a href="https://hexo.io/">Hexo</a>。之前我用的博客框架是 <a href="wordpress.org">WordPress</a>，博客页面基本是动态生成，尽管套了阿里云的全站加速但还是很慢。加上我对 Markdown 逐渐熟悉，所以这次我使用了目前技术圈比较主流的 Hexo。Hexo 带来了更快的渲染速度，我日思夜想的暗黑模式（尽管没人在意），更完善的 RSS 支持（尽管这年代用 RSS 的少之又少），还有各种文章内样式（例如我翻译的文章），比 WordPress 灵活很多。</li><li>更改图片和文件的存储策略。原来的图片和文件一股脑全都存储在阿里云 OSS 上，不仅混乱而且很不好看。处于对国内访问速度考虑，新网站的图片文件数据使用 <a href="upyun.com">又拍云</a> 存储，并使用了两个域名分别存储文件和图片，图片采用了一些压缩手段，加载速度更快。</li><li>使用独立的评论系统。新网站采用了开源评论系统 <a href="https://twikoo.js.org/">Twikoo</a>，目前该系统部署在腾讯云上，你现在可以在评论中带图，甚至可以使用 Markdown 格式进行评论。</li></ol>]]></content:encoded>
+      
+      
+      <category domain="https://www.fuyushenchu.com/categories/%E6%83%B3%E6%B3%95-Thoughts/">想法 / Thoughts</category>
+      
+      
+      
+      <comments>https://www.fuyushenchu.com/2021/04/19/the-new-website/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2020 年度总结 | 我们只是假装关心</title>
